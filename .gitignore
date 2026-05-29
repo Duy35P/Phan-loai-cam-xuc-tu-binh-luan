@@ -1,0 +1,31 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual Environment =====
+.venv/
+venv/
+ENV/
+
+# ===== Model files (quá lớn cho GitHub) =====
+models/phobert_best/model.safetensors
+models/phobert_best/pytorch_model.bin
+
+# ===== Data =====
+data/history.db
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.log
